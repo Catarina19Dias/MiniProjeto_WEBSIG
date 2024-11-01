@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #746f6f;
+}
+
+.container {
+    max-width: 1000px; 
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #cd9193;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+
+header img {
+    margin-right: 20px; 
+}
+
+.header-text {
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    color: rgb(94, 92, 92);
+    margin-top: 20px;
+    border-bottom: 2px solid #cd9193;
+    padding-bottom: 5px;
+    font-size: 17px
+}
+
+h3 {
+    color: rgb(94, 92, 92)3;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}   
+
+ul {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+li {
+    list-style-type: disc;
+    padding-left: 12px;
+    font-size: 12px;
+}
+
+
+.colunas {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.coluna-esquerda{
+    width: 35%;
+    padding-right: 10px; 
+}
+
+.coluna-direita {
+    width: 65%;
+    padding-left: 10px; 
+}
+
+.et {
+    font-size: 20px;
+}
+
+.perfil-pessoal, .contactos, .linguas, .qualidades, .competencias {
+    margin: 20px 0;
+}
+
+.experiencia, .formacao-academica, .seminarios_conferencias {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #cd9193;
+    background: #f8f9fa;
+}
